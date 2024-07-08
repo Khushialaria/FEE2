@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!-- tells what action will be perform when form gets submitted -->
+    <form action="">
+        <!-- input: to take data from user -->
+         <h1>INPUT</h1>
+         <input type="text">
+         <br>
+         <input type="password">
+         <br>
+         <input type="date">
+         <br>
+         <input type="time">
+         <br>
+         <input type="number">
+         <br>
+         <input type="color">
+         <br>
+<hr>
+        <h1>Placeholder and label</h1>
+        <label for="username">username</label>
+        <input type="username" placeholder="username" id="username">
+        <br>
+        <label for="username">password</label>
+        <input type="password" placeholder="password" id="password">
+        <hr>
+        <h1>BUTTON</h1>
+        <button type="submit">submit</button>
+        <br>
+        <button type="reset">reset</button>
+        <hr>
+        <h1>CHECKBOX</h1>
+        <br>
+        <label for="age">Age</label>
+        <input type="checkbox" name="age" id="age" checked>
+        <hr>
+        <h1>RADIO BUTTON</h1>
+        <label for="female">female</label><input type="radio" name="gender" id="female">
+        <label for="male">male</label><input type="radio" name="gender" id="male">
+        <hr>
+        <h1>DROPDOWN</h1>
+        <select name="language">
+           <option value="">c</option>
+           <option value=""selected>c++</option>
+           <option value="">python</option>
+           <option value="">java</option>
+        </select>
+        <hr>
+        <h1>Range</h1>
+        <label for="">attendance</label>
+        <input type="range" min="0" max="100" name="attendance" step="10" value="80">
+        <hr>
+        <h1>Textrtr area</h1>
+        <label for="enter your feedback"></label>
+        <textarea name="" id="" col="10" rows="10"></textarea>
+    </form>
+</body>
+</html>
