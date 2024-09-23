@@ -55,8 +55,8 @@
 
 
 // object merge
-const user1 = { name1:'khushi' , age1: 19};
-const user2 = { name2:'garima' , age2: 21};
+// const user1 = { name1:'khushi' , age1: 19};
+// const user2 = { name2:'garima' , age2: 21};
 // const user3 = Object.assign(user1,user2)
-const obj = Object.assign({},user1,user2)
-console.log(obj)
+// const obj = Object.assign({},user1,user2)
+// console.log(obj)

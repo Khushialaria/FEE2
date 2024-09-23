@@ -19,15 +19,17 @@
 //     console.log(c);
 //  }
 
-// 2. functional scope : 
+// 2. functional scope : variables access and visible inside function but outside the function
 
-let c = 50 ; 
-function calsum(a,b)
-{
-    let c = a+b;
-    console.log(c);
-}
-calsum(5,3);
-console.log(c);
+// let c = 50 ; 
+// function calsum(a,b)
+// {
+//     let c = a+b;
+//     console.log(c);
+// }
+// calsum(5,3);
+// console.log(c);
+
+
 
 

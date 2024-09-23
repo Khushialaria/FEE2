@@ -11,9 +11,15 @@
 // multiply(5);
 
 
-function multiply(a,b = 5){
-    let ans = a*b;
-    console.log(ans);
-}
-multiply(5);
-multiply(5 , 3);
+// function multiply(a,b = 5){
+//     let ans = a*b;
+//     console.log(ans);
+// }
+// multiply(5);
+// multiply(5 , 3);
+
+
+
+
+
+
