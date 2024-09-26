@@ -1,5 +1,2 @@
-let num = [ 1,2,3,4];
-// function cube(num){
-//     return num **3;
-// }
-// console.log(num.map(cube));
+console.log(person3.hasOwnproperty("name"));
+// console.log(person2.hasOwnproperty("name"));
